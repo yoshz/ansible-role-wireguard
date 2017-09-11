@@ -1,0 +1,2 @@
+- include: "{{ ansible_distribution | lower }}/install.yml"
+- include: configure.yml

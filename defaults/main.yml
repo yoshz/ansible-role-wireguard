@@ -1,0 +1,6 @@
+wg private_key: ~
+wg public_key: ~
+wg_ip: ~
+wg_port: 51820
+wg_internal_iface: eth0
+wg_group_name: wireguard

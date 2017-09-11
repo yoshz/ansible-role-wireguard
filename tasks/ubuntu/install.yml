@@ -1,0 +1,8 @@
+- name: Install ppa apt repository
+  apt_repository: repo=ppa:wireguard/wireguard
+
+- name: Install wireguard-dkms
+  apt: name=wireguard-dkms
+
+- name: Install wireguard-tools
+  apt: name=wireguard-tools
