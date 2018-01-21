@@ -1,6 +1,6 @@
 ---
 galaxy_info:
-  author: "yoshzz"
+  author: "yoshz"
   description: An Ansible role to install and configure Wireguard
   license: MIT
   version: 1.0
