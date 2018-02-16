@@ -50,7 +50,7 @@ Update your inventory file and update the private key for each host
 ```yaml
 [wireguard]
 node1 wg_ip=10.0.1.1 wg_private_key="private_key" wg_public_key="public_key"
-node1 wg_ip=10.0.1.2 wg_private_key="private_key" wg_public_key="public_key"
+node2 wg_ip=10.0.1.2 wg_private_key="private_key" wg_public_key="public_key"
 ```
 
 Configure Wireguard:

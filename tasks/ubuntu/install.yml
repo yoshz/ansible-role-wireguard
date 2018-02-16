@@ -1,3 +1,6 @@
+- name: Ensure correct kernel headers are installed.
+  shell: "apt-get -y install linux-headers-$(uname -r)"
+
 - name: Install ppa apt repository
   apt_repository: repo=ppa:wireguard/wireguard
 
