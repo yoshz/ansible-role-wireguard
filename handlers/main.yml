@@ -1,2 +1,2 @@
 - name: Restart wireguard
-  service: name=wg-quick@wg0 state=restart
+  service: name=wg-quick@wg0 state=restarted
